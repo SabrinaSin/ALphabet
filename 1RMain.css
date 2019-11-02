@@ -1,0 +1,41 @@
+body {
+	background:lightgrey;
+	color:darkblue;
+}
+
+h1 {
+	font-family:Geneva;
+	font-weight:bold;
+	letter-spacing:63px;
+	font-size:20px;
+}
+
+h2 {
+
+	font-family:Arnoldboecklin;
+	font-style:normal;
+	object-position: center;
+	font-size:23px;
+}
+
+p {
+	font-family:Helvetica;
+	font-weight:normal;
+	font-size:13px;
+}
+	.fp01{
+		font-family:courier;
+		font-weight:normal;
+		font-size:17px;
+	}
+	.fp02{
+		font-family:courier;
+		font-weight:normal;
+		font-size:17px;
+	}
+	.fp03{
+		font-family:courier;
+		font-weight:normal;
+		font-size:17px;
+	}
+
