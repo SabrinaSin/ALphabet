@@ -1,0 +1,54 @@
+body{
+	background:#a3c6ff;
+	width:500px;
+	height:500px;
+	overflow-y: scroll height:100%;
+}
+
+.title{
+	font-family:"arial";
+	font-size:300px;
+}
+.Sampel01{
+	width:30px;
+	height:30px;
+}
+.Sample02{
+	width:300px;
+	height:300px;
+}
+.Sampel03{
+	width:300px;
+	height:300px;
+}
+.Sample04{
+	width:300px;
+	height:300px;
+}
+.Sampel05{
+	width:300px;
+	height:300px;
+}
+.Sample06{
+	width:300px;
+	height:300px;
+}
+
+<style>
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: start;
+  justify-content:start;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%; 
+
+
+/*
+  RESOURCES:
+
+  			https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files

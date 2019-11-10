@@ -1,0 +1,63 @@
+body{
+	background:#a5c7d9;
+	width:500px;
+	height:500px;
+	overflow-y: scroll height:100%;
+}
+
+.title{
+	font-family:"Big Shoulders Text";
+	font-variant:small-caps;
+	font-size:100px;
+	text-align:right;
+	margin-left:500px;
+	margin-top:100px;
+}
+.Sampel01{
+	width:300px;
+	height:300px;
+}
+.Sample02{
+	width:300px;
+	height:300px;
+	margin-left:475px;
+}
+.Sampel03{
+	width:300px;
+	height:300px;
+}
+.Sample04{
+	width:300px;
+	height:300px;
+	margin-left:475px;
+}
+.Sampel05{
+	width:300px;
+	height:300px;
+}
+.Sample06{
+	width:300px;
+	height:300px;
+	margin-left:475px;
+}
+
+<style>
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: start;
+  justify-content:start;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  max-width: 100%; 
+
+
+/*
+  RESOURCES:
+
+  			https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files
+  			https://stackoverflow.com/questions/15356695/link-rel-stylesheet-href-css-style-css-is-not-working
+  			https://www.quackit.com/html/html_editors/scratchpad/?example=/css/grid/examples/photo_gallery_auto-fill_evenly_sized_images
+  			https://www.quackit.com/html/html_editors/scratchpad/?example=/css/grid/examples/photo_gallery_auto-fill_align-items_start
