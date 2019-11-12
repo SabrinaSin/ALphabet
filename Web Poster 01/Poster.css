@@ -1,0 +1,349 @@
+body{
+  background:#6F3637;
+  padding:80px 40px;
+  overflow-y: scroll height:100%;
+}
+
+h1{
+  font-family:"anton";
+  font-size:37px;
+  letter-spacing:5px;
+  color:#233342;
+}
+
+h2{
+  font-family:"domine";
+  font-size:20px;
+  color:#CE8054;
+}
+
+p{
+  font-family:"avenir";
+  font-size:15px;
+  color:white;
+  text-align:left;
+  padding:10px;
+}
+
+.text{
+  font-family:"avenir";
+  font-size:13px;
+  color:white;
+  text-align:left;
+  padding:10px;
+}
+
+/*LEFT SIDE*/ 
+.shapeS {
+      width:25px;
+      height:25px;
+      background:#CE8054;
+    }
+.shapeQ {
+      width:25px;
+      height:25px; 
+      margin-left:25px;
+      margin-top:-25px;
+      background:#B35340;
+    }
+.shapeU{
+      width:25px;
+      height:25px;
+      margin-left:50px;
+      margin-top:-25px;
+      background:#233342;
+}
+.shapeA{
+      width:25px;
+      height:25px;
+      margin-left:75px;
+      margin-top:-25px;
+      background:#4B2B31;
+}
+/*RIGHT SIDE*/ 
+.shapeB{
+      width:25px;
+      height:25px;
+      margin-left:1065px;
+      margin-top:-25px;
+      background:#4B2B31;
+} 
+.shapeO{
+      width:25px;
+      height:25px;
+      margin-left:1090px;
+      margin-top:-25px;
+      background:#233342;
+}
+.shapeX{
+      width:25px;
+      height:25px; 
+      margin-left:1115px;
+      margin-top:-25px;
+      background:#B35340;
+}
+.shapeXX{
+      width:25px;
+      height:25px;
+      margin-left:1140px;
+      margin-top:-25px;
+      background:#CE8054;
+}
+                    .container {
+                        display: grid;
+                        grid-template-areas:
+                              'header header header header header header'
+                              'menu main main main right right'
+                              'menu footer footer footer footer footer';
+                        grid-gap: 9px;
+                        background-color: #2196F3;
+                        padding: 9px;
+                            
+                        background-color: #3e2723;
+                        padding: 9px;
+                        border-radius: 9px;
+                                }
+                     .container > div {
+                        background-color:#B35340;
+                        border: 1px solid #fff;
+                        text-align: center;
+                        padding: 30px 0;
+                        font-size: 30px;
+                          }
+                                    /*Title*/
+                          .item1 { grid-area: header; 
+                                   font-family:"Primetime";
+                                   font-style:bold;
+                                   font-size:30px;
+                                   letter-spacing:27px;
+                                   color:white;
+                                  }
+                                  /*Left Menu
+                          .item2 { grid-area: menu; 
+                                   font-family:arial;
+                                   font-size:10px;
+                                   color:white;
+                                  }*/
+                                   /*Middle Menu*/
+                          .item3 { grid-area: main; 
+                                   font-family:raleway;
+                                   font-size:10px;
+                                   text-align:left;
+                                   color:white;
+                                  }
+                                   /*Right Menu
+                          .item4 { grid-area: right;
+                                   font-family:arial;
+                                   font-size:10px; 
+                                 }
+                                   Fooooooter
+                          .item5 { grid-area: footer; 
+                                   font-family:arial;
+                                   font-size:10px;
+                                 }*/
+      /*Main Stroke*/
+  .T01{
+    width:25px;
+    height:75px;
+    margin-left:398px;
+    margin-top:50px;
+    background:white;
+    position:absolute;
+    position:fixed;
+    left:0px;
+    top:0px;
+    z-index:-1;
+} 
+      /*Top Cross*/
+  .T02{
+    width:100px;
+    height:5px;
+    margin-left:360px;
+    margin-top:50px;
+    background:white;
+    position:absolute;
+    position:fixed;
+    left:0px;
+    top:0px;
+    z-index:-1;
+} 
+      /*Long Left Stroke*/
+  .M01{
+    width:25px;
+    height:125px;
+    margin-left:500px;
+    margin-top:55px;
+    background:white;
+    position:absolute;
+    position:fixed;
+    left:0px;
+    top:0px;
+    z-index:-1;
+}
+        /*Long Right Stroke*/
+  .M02{
+    width:25px;
+    height:125px;
+    margin-left:593px;
+    margin-top:55px;
+    background:white;
+    position:absolute;
+    position:fixed;
+    left:0px;
+    top:0px;
+    z-index:-1;
+}
+        /*Short Right Stroke*/
+  .M03{
+    width:53px;
+    height:5px;
+    margin-left:550px;
+    margin-top:73px;
+    transform:rotate(-45deg);
+    background:white;
+    position:absolute;
+    position:fixed;
+    left:0px;
+    top:0px;
+    z-index:-1;
+}
+        /*Short Left Stroke*/
+  .M04{
+    width:53px;
+    height:5px;
+    margin-left:516px;
+    margin-top:73px;
+    transform:rotate(45deg);
+    background-color:white;
+    position:absolute;
+    position:fixed;
+    left:0px;
+    top:0px;
+    z-index:-1;
+}
+        /*Outer Circle*/
+  .C01{
+        width:77px;
+        height:77px;
+        margin-left:655px;
+        margin-top:50px;
+        border-radius:50%;
+        background:white;
+        position:absolute;
+        position:fixed;
+        left:0px;
+        top:0px;
+        z-index:-1;
+}
+        /*Inner Circle*/
+  .C02{
+        width:52px;
+        height:52px;
+        margin-left:668px;
+        margin-top:62px;
+        border-radius:50%;
+        background:#6F3637;
+        position:absolute;
+        position:fixed;
+        left:0px;
+        top:0px;
+        z-index:-1;
+}
+      /*Rectangle*/ 
+  .C03{
+        width:50px;
+        height:25px;
+        margin-left:700px;
+        margin-top:75px;
+        background:#6F3637;
+        position:absolute;
+        position:fixed;
+        left:0px;
+        top:0px;
+        z-index:-1; 
+}
+                              /* Photo slide glide */ 
+                                    .container {
+                                      display: flex;
+                                      width: 100%;
+                                      padding: 4% 2%;
+                                      box-sizing: border-box;
+                                      height: 100vh;
+                                    }
+                                    .box {
+                                      flex: 1;
+                                      overflow: hidden;
+                                      transition: .5s;
+                                      margin: 0 2%;
+                                      box-shadow: 0 20px 30px rgba(0,0,0,.1);
+                                      line-height: 0;
+                                    }
+                                    .box > img {
+                                      width: 200%;
+                                      height: calc(100% - 10vh);
+                                      object-fit: cover; 
+                                      transition: .5s;
+                                    }
+                                    .box > span {
+                                      font-size: 3.8vh;
+                                      display: block;
+                                      text-align: center;
+                                      height: 10vh;
+                                      line-height: 2.6;
+                                    }
+                                    .box:hover { flex: 1 1 50%; }
+                                    .box:hover > img {
+                                      width: 100%;
+                                      height: 100%;
+                                    }
+
+
+
+/* ---------------------------------------------------- */
+
+/*  Resources: 
+              https://css-tricks.com/the-shapes-of-css/
+              https://www.pinterest.ca/pin/532972937151714585/
+              https://css-tricks.com/almanac/properties/f/font-size/
+              https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_animation
+              https://codepen.io/knyttneve/pen/YgZbLO
+              http://www.textilemuseum.ca/home
+
+/* body{
+
+	background-color:rgba(244, 189, 134);
+}
+
+h1{
+	font-family:Helvetica;
+	font-variant:bold;
+	font-size:155px;
+	color: rgba(76,102,191);
+  column-rule-width:20px;
+}
+
+  .intro{
+  	font-family:Helvetica;
+  	font-variant:thin;
+  	font-size:25px; 
+  	color:grey;
+  }
+
+h2{
+	font-family:Helvetica;
+	font-variant:bold;
+	font-size:75px;
+	column-width:1em;
+	color: rgba(76,102,191);
+}
+
+/*.inline-photo {
+  border: 1em solid #fff;
+  border-bottom: 4em solid #fff;
+  border-radius: .25em;
+  box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+  margin: 2em auto;
+  transform: rotateZ(-2deg);
+  max-width: 600px;
+  width: 90%;*/
+}
