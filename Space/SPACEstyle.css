@@ -1,5 +1,5 @@
 body{
-	background-image:cover;
+	background:black;
 }
 
 h1{ 
@@ -7,11 +7,7 @@ h1{
 	font-size:30px;
 	font-color:pink; 
 }
-img{
-	width:100px;
-	height:100px;
 
-}
 
 
 
