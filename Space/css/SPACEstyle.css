@@ -1,26 +1,54 @@
 body{
 	background-image:cover;
+	overflow-y: scroll height:100%;
 }
 
-h1{ 
-	font-family:"impact";
-	font-size:30px;
-	font-color:pink; 
-}
+/* circle for black hole*/ 
+.circle{ 
+   	width:50px;
+	height:50px;
+	background:red;
+	border-radius:50%;
+	position:absolute;
+   	top:50%;
+    left:50%;
+    margin-top:-60px;
+   	margin-left:-50px;	
+ }
+
+/*background image, Space*/ 
 img{
-	width:100px;
-	height:100px;
-
+	width:1275px;
+	height:685px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:-1;
 }
 
 
 
 
+
+
+/* Notes */
+/* trying to center circle for black hole, tried using margin's, did not work
+
+
+/*h1{ hello
+	font-family:"impact";
+	font-size:100px;
+	color:pink; 
+}*/
 
 
 /*Resources
 
 	https://www.w3schools.com/howto/howto_css_shapes.asp
+	https://www.w3schools.com/cssref/tryit.asp?filename=trycss_zindex
+	https://scrollmagic.io/examples/expert/multiple_scroll_directions.html
+	file:///Users/sabrinasingh/Downloads/janpaepke-ScrollMagic-de5ccdb/index.html
+	https://stackoverflow.com/questions/14046638/centering-a-css3-shape
 
 
 
