@@ -1,0 +1,55 @@
+body, html {
+	height:5000px;
+	margin:0;
+}
+
+
+.menu {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.elem {
+	padding:1em;
+	background:green;
+	border:1px solid #FFF;
+	color:#FFF;
+	text-align:center;
+	cursor:pointer;
+	height:25px;
+	transition:height 0.5s;
+}
+
+.active {
+	height:200px;
+}
+
+.elem:hover {
+	background:red;
+}
+
+.purple {
+	background:purple;
+}
+
+.blue {
+	background:blue;
+}
+
+.circle {
+	position:fixed;
+	width:150px;
+	height:150px;
+	border:1px solid #000;
+	border-radius:50%;
+
+	bottom:50px;
+	right:50px;
+}
+
+.line {
+	height:1px;
+	width:75px;
+	background:black;
+	margin-top:75px;
+}

@@ -1,0 +1,14 @@
+body, html {
+	height:100%;
+	margin:0;
+}
+
+p {
+	padding:1em;
+	border:1px solid #000;
+}
+
+.grey{
+	background:grey;
+	color:white x;
+}
